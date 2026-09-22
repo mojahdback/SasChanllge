@@ -3,7 +3,7 @@
 // radar  -> true
 // hello  -> false
 
-let word = "level";
+let word = "Aya";
 let drow = ""
 
 const len = word.length
@@ -16,7 +16,7 @@ for(let i = word.length -1 ; i>=0; i--){
 }
 
 for(let i =0 ; i< len  ; i++){
-      if(word[i] !== drow[i]){
+      if(word[i].toLocaleUpperCase() !== drow[i].toLocaleUpperCase()){
         palindrome = false;
         break;
 
